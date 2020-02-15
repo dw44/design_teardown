@@ -12,7 +12,7 @@ body {
 }
 
 #viewport {
-    width: 99.1vw;
+    width: 99vw;
     height: 100vh;
     margin: 0 auto;
 }
@@ -53,11 +53,12 @@ body {
 
 .more-articles {
     width: 100%;
-    height: 285%;
-    margin: 0 auto;
+    height: 240%;
+    margin: 5px auto;
     display: grid;
-    grid-gap: 2px;
+    grid-gap: 6px;
     grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 10%;
 }
 
 .ma-item {
@@ -75,35 +76,5 @@ body {
 
 #ma-11 {
     grid-column: span 4;
-    height: 40%;
+    height: 60%;
 }
-
-/* .ma-item {
-    width: 24.8%;
-    height: 58%;
-    float: left;
-    margin: 2px;
-    background-color: #555;
-}
-
-.double-width {
-    width: 49.8%;
-    border-radius: 11px;
-    background-color: #333;
-}
-
-.last-row {
-    padding-bottom: 10%;
-}
-
-#ma-4 {
-    background-color: #777;
-}
-
-#ma-11 {
-    width: 100%;
-    height: 15%;
-    background-color: #ddd;
-} */
-
-/* Ad after main articles */
