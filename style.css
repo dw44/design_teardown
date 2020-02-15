@@ -1,16 +1,24 @@
 @import url('reset.css');
 
+/* Boilerplate */
+
 *, *:before,
 *:after {
     box-sizing: border-box;
 }
 
+body {
+    background-color: #ddd;
+}
+
 #viewport {
-    width: 100vw;
+    width: 99.1vw;
     height: 100vh;
+    margin: 0 auto;
 }
 
 /* Header */
+
 .header {
     width: 100%;
     height: 23%;
@@ -18,6 +26,7 @@
 }
 
 /* Main article */
+
 .articles {
     width: 100%;
     display: flex;
@@ -25,7 +34,6 @@
 }
 
 .article-item {
-    /* border: 1px solid blue; */
     flex: 1;
     background-color: #444;
 }
@@ -34,7 +42,54 @@
     background-color: #333;
 }
 
+/* Links to signup forms etc */
+
 .membership {
     background-color: #aaa;
     height: 60%;
+}
+
+/* More articles */
+
+.more-articles {
+    width: 100%;
+    height: 120%;
+    margin: 0 auto;
+}
+
+.ma-item {
+    width: 24.8%;
+    height: 58%;
+    float: left;
+    margin: 2px;
+    background-color: #555;
+}
+
+.double-width {
+    width: 49.8%;
+    border-radius: 11px;
+    background-color: #333;
+}
+
+.last-row {
+    padding-bottom: 10%;
+}
+
+#ma-4 {
+    background-color: #777;
+}
+
+#ma-11 {
+    width: 100%;
+    height: 15%;
+    background-color: #ddd;
+}
+
+/* Ad after main articles */
+
+.test {
+    clear: all;
+    height: 100%;
+    width: 100%;
+    position: relative;
 }
