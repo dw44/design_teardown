@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #ddd;
+    background-color: #999;
 }
 
 #viewport {
@@ -62,7 +62,7 @@ body {
 }
 
 .ma-item {
-    background-color: #777;
+    background-color: #555;
     color: #fff;
     font-size: 2em;
 }
@@ -73,31 +73,34 @@ body {
     grid-column: span 2;
 }
 
+#ma-4 {
+    background-color: #888;
+}
 /* Book ad after articles */
 
 .book-ad {
     width: 100%;
     height: 100%;
-    background-color: #555;
+    background-color: #888;
 }
 
 .even-more-articles {
     width: 100%;
     height: 120%;
-    background-color: #eee;
+    background-color: #666;
 }
 
 .other-book-ad {
     height: 30%;
-    background-color: seagreen;
+    background-color: #ccc;
 }
 
 .links {
     height: 120%;
-    background-color: steelblue;
+    background-color: #555;
 }
 
 .footer {
     height: 70%;
-    background-color: red;
+    background-color: #333;
 }
