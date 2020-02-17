@@ -95,6 +95,25 @@ body {
 .membership {
     background-color: #aaa;
     height: 60%;
+    color: #222;
+}
+
+.membership > p {
+    width: 60%;
+    line-height: 1.5;
+    font-size: 1.44em;
+    padding: 10% 10% 0 10%;
+}
+
+.membership > ul {
+    margin-top: 2%;
+    list-style-type: square;
+    font-size: 1.3em;
+    padding: 0 10% 0 13%;
+}
+
+.membership > ul > li {
+    margin-bottom: 5px;
 }
 
 /* More articles */
@@ -113,17 +132,69 @@ body {
     background-color: #555;
     color: #fff;
     font-size: 2em;
+    padding: 30% 6%;
+}
+
+.ma-item > h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em;
+}
+
+.author {
+    font-size: 0.7em;
+    margin: 10% 0;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.article-preview {
+    font-size: 0.7em;
+    font-weight: 400;
 }
 
 .double-width {
     border-radius: 11px;
     background-color: #333;
     grid-column: span 2;
+    padding: 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-dragon {
+    font-size: 4em;
+}
+
+.double-width h1 {
+    padding: 50px 0;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.dw-text {
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 2;
+    padding: 20px 0;
+}
+
+.signup {
+    height: 10%;
+    width: 20%;
+    border-radius: 15px;
+    font-size: 0.6em;
+    font-weight: bold;
+    margin-top: 10%;
 }
 
 #ma-4 {
     background-color: #888;
 }
+
 /* Book ad after articles */
 
 .book-ad {
