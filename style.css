@@ -253,14 +253,17 @@ body {
     width: 100%;
     height: 120%;
     background-color: #666;
+    font-family: 'Nunito', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 3px;
     padding: 1% 1%;
+    color: #fff;
 }
 
 .even-more-articles > div {
-    height: 95%;
+    max-height: 96%;
+    padding: 2% 2%;
 }
 
 .full-width {
@@ -268,8 +271,32 @@ body {
     border: 2px solid black;
 }
 
+.full-width > h2 {
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+
+.full-width > p {
+    font-size: 1.5em;
+}
+
 .half-width {
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.half-width > h2 {
+    font-size: 1.6em;
+}
+
+.half-width > h1 {
+    font-size: 2em;
+}
+
+.half-width > p {
+    font-size: 1.3em;
 }
 
 /* Smaller ad */
@@ -277,13 +304,114 @@ body {
 .other-book-ad {
     height: 30%;
     background-color: #ccc;
+    font-family: 'Nunito', sans-serif;
+    color: #111;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.links {
+.other-book-ad > h2 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.other-book-ad > h1 {
+    font-size: 2.2em;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.other-book-ad > p {
+    font-size: 1.2em;
+    width: 60%;
+}
+
+.other-book-ad > button {
+    font-size: 1.4em;
+    width: 15%;
+    height: 28%;
+    border-radius: 15px;
+    border: none;
+}
+
+/* Curated Posts */
+
+.curated {
     height: 120%;
     background-color: #555;
+    display: flex;
+    flex-direction: column;
 }
 
+/* .curated div {
+    border: 1px solid blue;
+} */
+
+.guides {
+    flex: 4;
+    display: flex;
+}
+
+.guide-item {
+    flex: 1;
+    color: #eee;
+    font-family: 'Nunito', sans-serif;
+}
+
+.guide-item > h1 {
+    font-size: 2.8em;
+    margin: 6% 5%;
+}
+
+.guide-item > ul {
+    margin: 6% 10%;
+    list-style-type: square;
+    line-height: 2;
+    font-size: 1.5em;r
+}
+
+.newsletter {
+    flex: 4;
+}
+
+.news {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #999;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news > h1 {
+    margin: 0 auto;
+    font-size: 3.5em;
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 3% 0; 
+}
+
+.news > p {
+    font-size: 1.5em;
+    line-height: 2.5;
+}
+
+.news > i {
+    flex: 6;
+    font-size: 10em;
+    justify-self: flex-end;
+}
+
+.bot {
+    flex: 1;
+}
+
+/* Footer */
 .footer {
     height: 70%;
     background-color: #333;
